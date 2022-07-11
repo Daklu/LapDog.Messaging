@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -32,6 +32,9 @@
 		</Item>
 		<Item Name="_Licenses" Type="Folder">
 			<Item Name="Simplified BSD License.txt" Type="Document" URL="../docs/Simplified BSD License.txt"/>
+		</Item>
+		<Item Name="_docs" Type="Folder">
+			<Item Name="ChangeList.txt" Type="Document" URL="../docs/ChangeList.txt"/>
 		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Core Library" Type="Folder">
